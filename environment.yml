@@ -1,0 +1,10 @@
+name: imgs
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - numpy
+  - jupyter
+  - pillow=10.0.1
+  - python=3.11
+prefix: /home/fredo/miniconda3/envs/imgs
