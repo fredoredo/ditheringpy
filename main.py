@@ -129,11 +129,11 @@ if __name__ == "__main__":
     dest = args.DEST
 
     if not (os.path.isdir(src) or os.path.isfile(src)):
-        msg = "Specified source directory/file path is invalid."
+        msg = f"Specified source directory/file path is invalid. {src}"
         raise ValueError(msg)
 
     if not os.path.isdir(dest):
-        msg = "Specified destination directory path is invalid."
+        msg = f"Specified destination directory path is invalid. {dest}"
         raise ValueError(msg)
     
     # size
