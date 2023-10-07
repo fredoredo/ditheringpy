@@ -7,7 +7,7 @@ The project was mainly an excuse to experiment with dithering (Floyd-Steinberg) 
 ## How to
 1. Create a conda environment (or install packages as you wish) using `environment.yml`.
 2. Clone the project.
-3. Run main.py from your terminal and specify the source file/folder and destination folder. There are many options to play with, use `python main.py --help` to see them all.
+3. If using environments, activate the environment. Run main.py from your terminal and specify the source file/folder and destination folder. There are many options to play with, use `python main.py --help` to see them all.
 4. Enjoy your dithered result.
 
 ## Important
